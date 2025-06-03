@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Làm Gia Sư - BQM</title>
+    <link rel="stylesheet" href="./assets/styles/Tutor.css">
+    <link rel="shortcut icon" href="./assets/images/Header_footer/Logo_BQM.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/Header_footer/Logo_BQM.png" alt="Trung tâm gia sư BQM">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Trang chủ</a></li>
+                <li class="nav-item"><a href="./Newclass.html" class="nav-link">Lớp mới</a></li>
+                <li class="nav-item"><a href="./Tutor.html" class="nav-link active">Gia sư</a></li>
+                <li class="nav-item"><a href="./parents.html" class="nav-link">Phụ huynh/Học viên</a></li>
+                <li class="nav-item"><a href="./Blog.html" class="nav-link">Blog/Tin tức</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="banner-text">
+            <h1>Đăng kí ngay để trở thành Gia sư Trung tâm nhé!</h1>
+        </div>
+        <div class="banner-images">
+            <img src="./assets/images/Giasu/b1.jpg" alt="Gia sư chất lượng">
+        </div>
+    </div>
+    <!-- Form -->
+    <main class="tutor-registration">
+        <div class="container">
+            <h1 class="page-title">FORM ĐĂNG KÝ LÀM GIA SƯ</h1>
+
+            <form id="tutorForm" class="rounded-form">
+                <!-- Hàng 1 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullname">Họ và tên:</label>
+                        <input type="text" id="fullname" name="fullname" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required autocomplete="off">
+                    </div>
+                </div>
+
+                <!-- Hàng 2 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại:</label>
+                        <input type="tel" id="phone" name="phone" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthyear">Năm sinh:</label>
+                        <input type="number" id="birthyear" name="birthyear" min="1970" max="2010" required
+                            autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="education">Trình độ học vấn:</label>
+                        <input type="text" id="education" name="education" required autocomplete="off">
+                    </div>
+                </div>
+
+                <!-- Hàng 3 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="address">Địa chỉ hiện tại:</label>
+                        <input type="text" id="address" name="address" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="subjects">Môn học có thể dạy:</label>
+                        <input type="text" id="subjects" name="subjects" required autocomplete="off">
+                    </div>
+                </div>
+
+                <!-- Hàng 4 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="available-time">Thời gian rảnh trong tuần:</label>
+                        <textarea id="available-time" name="available-time" rows="2" required
+                            autocomplete="off"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="teaching-area">Khu vực nhận lớp:</label>
+                        <textarea id="teaching-area" name="teaching-area" rows="2" required
+                            autocomplete="off"></textarea>
+                    </div>
+                </div>
+
+                <!-- Hàng 5 -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="certificates">Bằng cấp, chứng chỉ:</label>
+                        <textarea id="certificates" name="certificates" rows="3" autocomplete="off"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Kinh nghiệm giảng dạy:</label>
+                        <textarea id="experience" name="experience" rows="3" autocomplete="off"></textarea>
+                    </div>
+                </div>
+
+                <!-- Nút gửi -->
+                <div class="form-submit">
+                    <button type="submit" class="rounded-submit-btn">GỬI ĐĂNG KÝ</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <section class="process-policy">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quy trình nhận lớp và chính sách hỗ trợ</h2>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="process-section">
+                <h3><i class="fas fa-list-ol"></i> Quy trình nhận lớp</h3>
+                <ul class="styled-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Các bạn điền thông tin vào form trên website hoặc liên hệ qua Zalo của Trung tâm theo
+                            mẫu</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Tham gia các nhóm Zalo theo cấp học và môn học để cập nhật lớp mới</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Khi thấy lớp phù hợp, inbox Zalo cung cấp: Số điện thoại, tên, năm sinh, ảnh CMND, ảnh
+                            thẻ/Thẻ giảng dạy, trường (ngành), kinh nghiệm và thành tích nổi bật</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Trung tâm sẽ lưu thông tin để tiện cho các lần trao đổi sau</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="policy-section">
+                <h3><i class="fas fa-handshake"></i> Chính sách hỗ trợ</h3>
+                <div class="policy-item">
+                    <h4><i class="fas fa-money-bill-wave"></i> Phí nhận lớp</h4>
+                    <p>Phí cực lớp 300K (được hoàn lại khi thanh toán phí tháng đầu). Tháng đầu đóng phí 25%-30%
+                        lương.</p>
+                </div>
+
+                <div class="policy-item">
+                    <h4><i class="fas fa-undo"></i> Hoàn phí</h4>
+                    <p>Khi phụ huynh học sinh cho con học ở trung tâm khác, học ở trường, có gia sư riêng... Trung
+                        tâm sẽ hoàn phí sau 5-7 ngày.</p>
+                </div>
+
+                <div class="policy-item">
+                    <h4><i class="fas fa-times-circle"></i> Không hoàn phí</h4>
+                    <ul class="warning-list">
+                        <li>Không đem giấy giới thiệu</li>
+                        <li>Nhờ phụ huynh học sinh gọi trung tâm</li>
+                        <li>Nhờ người khác dạy thay</li>
+                        <li>Bỏ lớp, đổi lịch không báo trước</li>
+                        <li>Tác phong không nghiêm túc, dạy sai kiến thức</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="two-column-footer">
+                <div class="contact-column">
+                    <p><i class="fas fa-info-circle"></i> Các vấn đề khác còn thắc mắc, bạn có thể liên hệ trực tiếp
+                        với trung tâm.</p>
+                </div>
+                <div class="contract-column">
+                    <a href="hopdonggiasu.html" class="contract-link">
+                        <i class="fas fa-file-contract"></i> Xem điều khoản hợp đồng gia sư
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col contact-col">
+                    <h3 class="footer-title">LIÊN HỆ</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 144 Xuân Thủy, Cầu Giấy, Hà Nội</p>
+                        <p><i class="fas fa-envelope"></i> TrungtamgiasuBQM@gmail.com</p>
+                        <p><i class="fas fa-phone-alt"></i> 0912.345.678 (ZALO 24/7)</p>
+                        <p><i class="fas fa-phone-alt"></i> 0987.854.321 (Giờ hành chính)</p>
+                    </div>
+                    <p class="service-note">
+                        (Cung cấp Gia sư kèm 1:1 tại nhà tất cả các khu vực trên địa bàn Hà Nội)
+                    </p>
+                </div>
+
+                <!-- Cột Danh mục -->
+                <div class="footer-col menu-col">
+                    <h3 class="footer-title">DANH MỤC</h3>
+                    <ul class="footer-menu">
+                        <li><a href="#">THÔNG TIN TRUNG TÂM BQM</a></li>
+                        <li><a href="#">ĐĂNG KÍ LÀM GIA SƯ</a></li>
+                        <li><a href="#">ĐĂNG KÍ TÌM GIA SƯ</a></li>
+                        <li><a href="#">CÁC TÀI LIỆU MIỄN PHÍ</a></li>
+                        <li><a href="#">GIA SƯ CẤP TIỂU HỌC</a></li>
+                        <li><a href="#">GIA SƯ CẤP TRUNG HỌC</a></li>
+                        <li><a href="#">GIA SƯ CẤP THPT</a></li>
+                    </ul>
+                </div>
+
+                <!-- Câu nói -->
+                <div class="footer-col quote-col">
+                    <div class="inspiration-quote">
+                        <div class="logo">
+                            <img src="./assets/images/Header_footer/Logo_BQM.png" alt="">
+                        </div>
+                        <p>"Learning to know, learning to do, learning to live together, and learning to be."</p>
+                        <p class="author">- Jacques Delors -</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/tutors.js"></script>
+    <script src="tutor-form.js"></script>
+</body>
+
+</html>
